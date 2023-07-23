@@ -1,24 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
         android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_home_black_24dp"
-        android:title="" />
+        android:icon="@drawable/home"
+        app:showAsAction="ifRoom"
+        android:title=""/>
 
     <item
         android:id="@+id/navigation_featured"
-        android:icon="@drawable/ic_baseline_featured_play_list_24"
+        android:icon="@drawable/music"
+        app:showAsAction="ifRoom"
         android:title="" />
 
     <item
         android:id="@+id/navigation_dashboard"
-        android:icon="@drawable/ic_baseline_person_24"
+        android:icon="@drawable/culture"
+        app:showAsAction="ifRoom"
         android:title="" />
 
     <item
         android:id="@+id/navigation_notifications"
-        android:icon="@drawable/ic_baseline_leaderboard_24"
+        android:icon="@drawable/lifestyle"
+        app:showAsAction="ifRoom"
         android:title="" />
+
+    <item
+        android:id="@+id/navigation_leaderBoard"
+        android:icon="@drawable/shop"
+        app:showAsAction="ifRoom"
+        android:title="" />
+
+
 
 </menu>

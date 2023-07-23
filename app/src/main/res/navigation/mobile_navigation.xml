@@ -7,24 +7,29 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.devabhi.myapplication.ui.home.HomeFragment"
+        android:name="com.rhotv.rhotv.ui.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.devabhi.myapplication.ui.dashboard.DashboardFragment"
+        android:name="com.rhotv.rhotv.ui.dashboard.MusicFragment"
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.devabhi.myapplication.ui.notifications.NotificationsFragment"
+        android:name="com.rhotv.rhotv.ui.notifications.CultureFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
     <fragment
         android:id="@+id/navigation_featured"
-        android:name="com.devabhi.myapplication.FeaturedFragment"
-        android:label="fragment_featured"
+        android:name="com.rhotv.rhotv.LifestyleFragment"
+        android:label="Reelz"
         tools:layout="@layout/fragment_featured" />
+    <fragment
+        android:id="@+id/navigation_leaderBoard"
+        android:name="com.rhotv.rhotv.ShopFragment"
+        android:label="Shop"
+        tools:layout="@layout/fragment_create" />
 </navigation>
