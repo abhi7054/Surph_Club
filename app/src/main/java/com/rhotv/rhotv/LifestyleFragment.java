@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,7 +18,7 @@ public class LifestyleFragment extends Fragment {
 
     WebView featuredWebView;
     ProgressBar progressBar;
-    String featuredURL = "https://rho.tv/web-stories/reelz/";
+    String featuredURL = "https://rho.tv/category/music/";
     WebSettings webSettings;
     ChromeClient chromeClient;
     CustomWebViewClient customWebViewClient;
@@ -26,7 +27,6 @@ public class LifestyleFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
 
         View root = inflater.inflate(R.layout.fragment_featured, container, false);
 

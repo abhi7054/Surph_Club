@@ -25,7 +25,7 @@ public class MusicFragment extends Fragment {
     CustomWebViewClient customWebViewClient;
     ProgressBar progressBar;
     WebSettings webSettings;
-    String url = "https://rho.tv/category/music/";
+    String url = "https://rho.tv/category/shows/";
 
     @SuppressLint("SetJavaScriptEnabled")
     public View onCreateView(@NonNull LayoutInflater inflater,

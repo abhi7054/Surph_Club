@@ -24,7 +24,7 @@ public class CultureFragment extends Fragment {
     ChromeClient chromeClient;
     CustomWebViewClient customWebViewClient;
 
-    String url = "https://rho.tv/category/shows/";
+    String url = "https://rho.tv/web-stories/reelz/";
 
     @SuppressLint("SetJavaScriptEnabled")
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -40,7 +40,8 @@ public class CultureFragment extends Fragment {
         customWebViewClient = new CustomWebViewClient(progressBar);
 
         webSettings.setJavaScriptEnabled(true);
-
+        webSettings.setLoadWithOverviewMode(true);
+        webSettings.setUseWideViewPort(true);
         webView.setWebChromeClient(chromeClient);
         webView.setWebViewClient(customWebViewClient);
 

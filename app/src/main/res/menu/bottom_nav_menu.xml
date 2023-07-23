@@ -16,13 +16,13 @@
 
     <item
         android:id="@+id/navigation_dashboard"
-        android:icon="@drawable/culture"
+        android:icon="@drawable/shows"
         app:showAsAction="ifRoom"
         android:title="" />
 
     <item
         android:id="@+id/navigation_notifications"
-        android:icon="@drawable/lifestyle"
+        android:icon="@drawable/reelz"
         app:showAsAction="ifRoom"
         android:title="" />
 
